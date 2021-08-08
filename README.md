@@ -1,5 +1,6 @@
 # FakeInventories
 ✨A simple way to create a GUI on servers based on PocketMine-MP!✨
+(https://youtu.be/D1NIx8E2UPg)
 
 
 ## Features
