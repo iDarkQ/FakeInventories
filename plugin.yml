@@ -1,0 +1,5 @@
+name: FakeInventories
+main: fakeinventories\Main
+version: 1.0
+api: 3.20.1
+author: iDarkQ
