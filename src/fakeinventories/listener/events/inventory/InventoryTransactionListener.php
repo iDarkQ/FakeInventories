@@ -36,7 +36,7 @@ class InventoryTransactionListener implements Listener {
                 foreach($actions as $action) {
                     if(!$action instanceof SlotChangeAction)
                         continue;
-                    if($action->getInventory() instanceof PlayerInventory || $action->getInventory() instanceof PlayerUIInventory)
+                    if($action->getInventory() instanceof PlayerInventory || $action->getInventory() !== $inventory)
                         continue;
 
                     $e->setCancelled($fakeInventory->onTransaction($player, $action->getSourceItem(), $action->getTargetItem(), $action->getSlot()));
